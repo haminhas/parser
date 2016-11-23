@@ -1,7 +1,294 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a64d2bb-9f85-45d0-b294-d4625e551554" name="Default" comment="" />
+    <list default="true" id="5a64d2bb-9f85-45d0-b294-d4625e551554" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_SEQ$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_SEQ_Empty1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_SEQ_Empty2$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$NMTIMES$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$NMTIMES.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$NOT$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$NOT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$NTIMES$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$NTIMES.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$OPTION$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$OPTION.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$PLUS$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$PLUS.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$RANGE$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$RANGE.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$SEQN$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$SEQN.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$UPNTIMES$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$UPNTIMES.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$1$$anonfun$$bar$bar$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$1$$anonfun$$eq$eq$greater$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$1$$anonfun$$tilde$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$bar$bar$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$bar$bar$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$bar$bar$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$bar$bar$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$bar$bar$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$eq$eq$greater$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$eq$eq$greater$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$tilde$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$tilde$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$tilde$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$tilde$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2$$anonfun$$tilde$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anon$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$6$$anonfun$apply$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$8$$anonfun$apply$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$8$$anonfun$apply$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$8$$anonfun$apply$12$$anonfun$apply$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$8$$anonfun$apply$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$8$$anonfun$apply$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$8$$anonfun$apply$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$8$$anonfun$apply$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$AExp$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$10$$anonfun$apply$28.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$10$$anonfun$apply$29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$10$$anonfun$apply$30.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$10$$anonfun$apply$31.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$10$$anonfun$apply$32.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$10$$anonfun$apply$33$$anonfun$apply$34.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$10$$anonfun$apply$33.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$12$$anonfun$apply$35.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$12$$anonfun$apply$36.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$12$$anonfun$apply$37.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$12$$anonfun$apply$38.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$12$$anonfun$apply$39.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$12$$anonfun$apply$40$$anonfun$apply$41.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$12$$anonfun$apply$40.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$14$$anonfun$apply$42$$anonfun$apply$43.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$14$$anonfun$apply$42.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$16$$anonfun$apply$44$$anonfun$apply$45.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$16$$anonfun$apply$44.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$18$$anonfun$apply$46.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$18$$anonfun$apply$47.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$18$$anonfun$apply$48.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$18$$anonfun$apply$49.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$18$$anonfun$apply$50$$anonfun$apply$51.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$18$$anonfun$apply$50.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$6$$anonfun$apply$20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$8$$anonfun$apply$21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$8$$anonfun$apply$22.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$8$$anonfun$apply$23.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$8$$anonfun$apply$24.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$8$$anonfun$apply$25.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$8$$anonfun$apply$26$$anonfun$apply$27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$8$$anonfun$apply$26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$BExp$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$5$$anonfun$apply$84.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$7$$anonfun$apply$85.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$7$$anonfun$apply$86$$anonfun$apply$87.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$7$$anonfun$apply$86.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Block$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$E$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$E$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$E$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$E$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$E$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$E$6$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$E$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$E$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$E$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$F$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$F$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$F$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$F$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$F$5$$anonfun$apply$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$F$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$F$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$F$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$5$$anonfun$apply$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$7$$anonfun$apply$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$7$$anonfun$apply$17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$9$$anonfun$apply$18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$9$$anonfun$apply$19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Fa$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$1$$anonfun$apply$52.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$3$$anonfun$apply$53.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$3$$anonfun$apply$54.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$3$$anonfun$apply$55.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$3$$anonfun$apply$56.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$3$$anonfun$apply$57.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$3$$anonfun$apply$58$$anonfun$apply$59.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$3$$anonfun$apply$58.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$60.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$61.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$62.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$63.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$64.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$65.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$66.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$67.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$68.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$69.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$70$$anonfun$apply$71.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5$$anonfun$apply$70.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$7$$anonfun$apply$72.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$7$$anonfun$apply$73.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$7$$anonfun$apply$74.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$7$$anonfun$apply$75.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$7$$anonfun$apply$76.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$7$$anonfun$apply$77.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$7$$anonfun$apply$78$$anonfun$apply$79.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$7$$anonfun$apply$78.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmt$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$6$$anonfun$apply$80.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$8$$anonfun$apply$81.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$8$$anonfun$apply$82$$anonfun$apply$83.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$8$$anonfun$apply$82.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Stmts$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$T$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$T$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$T$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$T$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$T$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$T$6$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$T$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$T$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$T$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Te$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Te$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Te$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Te$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Te$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Te$6$$anonfun$apply$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Te$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Te$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$$anonfun$Te$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$AExp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$AltParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Aop$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Aop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Assign$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Assign.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$BExp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Bop$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Bop.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$False$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$FunParser$$anonfun$parse$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$FunParser$$anonfun$parse$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$FunParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$IdParser$$anonfun$$lessinit$greater$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$IdParser$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$If$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$If.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Num$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Num.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$NumParser$$anonfun$$lessinit$greater$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$NumParser$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Parser$$anonfun$parse_all$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Parser$$anonfun$parse_all$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Parser$$anonfun$parse_all$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Parser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$SeqParser$$anonfun$parse$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$SeqParser$$anonfun$parse$2$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$SeqParser$$anonfun$parse$2$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$SeqParser$$anonfun$parse$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$SeqParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Skip$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Stmt.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$StringParser$$anonfun$$lessinit$greater$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$StringParser$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$StringParser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$True$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Var$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$Var.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$While$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser$While.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/parser.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anon$1.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anon$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anon$2.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anon$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_ALT$1.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_ALT$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_LEFT$1.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_LEFT$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_RECD$1.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_RECD$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_RIGHT$1.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$F_RIGHT$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$env$1.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$env$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$flatten$1.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$flatten$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$simp$1.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$simp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$simp$2.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$simp$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$simp$3.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$$anonfun$simp$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Chr$.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Chr$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Chr.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Chr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Empty$.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Empty$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Left$.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Left$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Left.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Left.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$RECD$.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$RECD$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$RECD.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$RECD.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Rec$.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Rec$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Rec.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Rec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Right$.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Right$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Right.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Right.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Seq$.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Seq$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Seq.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Seq.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Stars$.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Stars$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Stars.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Stars.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Val.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer$Val.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer.class" afterPath="$PROJECT_DIR$/out/production/cflcw3/cfl/lexer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cfl/lexer.scala" afterPath="$PROJECT_DIR$/src/cfl/lexer.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cfl/parser.scala" afterPath="$PROJECT_DIR$/src/cfl/parser.scala" />
+    </list>
     <ignored path="cflcw3.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,13 +308,15 @@
     <favorites_list name="cflcw3" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="parser.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cfl/parser.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="202">
-              <caret line="185" column="37" selection-start-line="185" selection-start-column="37" selection-end-line="185" selection-end-column="37" />
-              <folding />
+              <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+              <folding>
+                <element signature="e#13#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,10 +324,10 @@
       <file leaf-file-name="lexer.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cfl/lexer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="319" column="33" selection-start-line="319" selection-start-column="33" selection-end-line="319" selection-end-column="33" />
+            <state relative-caret-position="-2955">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding>
-                <element signature="e#76#117#0" expanded="true" />
+                <element signature="e#59#100#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,6 +343,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -64,9 +356,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/parser.scala" />
         <option value="$PROJECT_DIR$/src/Lexer.scala" />
-        <option value="$PROJECT_DIR$/src/cfl/parser.scala" />
         <option value="$PROJECT_DIR$/src/cfl/RANGE.scala" />
         <option value="$PROJECT_DIR$/src/cfl/lexer.scala" />
+        <option value="$PROJECT_DIR$/src/cfl/parser.scala" />
       </list>
     </option>
   </component>
@@ -106,6 +398,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,9 +439,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -458,6 +750,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -718,6 +1011,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -776,42 +1075,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479651287987</updated>
-      <workItem from="1479651290750" duration="4236000" />
+      <workItem from="1479651290750" duration="7764000" />
+      <workItem from="1479820042485" duration="488000" />
+      <workItem from="1479829790567" duration="5406000" />
+      <workItem from="1479910726704" duration="12000" />
+      <workItem from="1479911545811" duration="69000" />
+      <workItem from="1479911653747" duration="396000" />
+      <workItem from="1479914357647" duration="102000" />
+      <workItem from="1479931174466" duration="2478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4236000" />
+    <option name="totallyTimeSpent" value="16715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430556" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34950247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -827,7 +1133,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -836,116 +1142,89 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/parser/scala.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lexer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/Rexp.scala">
+    <entry file="file://$PROJECT_DIR$/src/cfl/parser.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/ZERO.scala">
+    <entry file="file://$PROJECT_DIR$/src/cfl/lexer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="4965">
+          <caret line="331" column="3" selection-start-line="331" selection-start-column="3" selection-end-line="331" selection-end-column="3" />
+          <folding>
+            <element signature="e#59#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/ONE.scala">
+    <entry file="file://$PROJECT_DIR$/src/cfl/parser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/CHAR.scala">
+    <entry file="file://$PROJECT_DIR$/src/cfl/parser.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#13#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/ALT.scala">
+    <entry file="file://$PROJECT_DIR$/src/cfl/lexer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
+        <state relative-caret-position="4710">
+          <caret line="314" column="0" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/SEQN.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/STAR.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/NTIMES.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/UPNTIMES.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cfl/RANGE.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/scala.scala" />
+    <entry file="file://$PROJECT_DIR$/src/Lexer.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/Rexp.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/ZERO.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/ONE.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/CHAR.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/ALT.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/SEQN.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/STAR.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/NTIMES.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/UPNTIMES.scala" />
+    <entry file="file://$PROJECT_DIR$/src/cfl/RANGE.scala" />
     <entry file="file://$PROJECT_DIR$/cflcw3.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="380" column="0" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cfl/lexer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="319" column="33" selection-start-line="319" selection-start-column="33" selection-end-line="319" selection-end-column="33" />
+        <state relative-caret-position="-2955">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
-            <element signature="e#76#117#0" expanded="true" />
+            <element signature="e#59#100#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -953,8 +1232,10 @@
     <entry file="file://$PROJECT_DIR$/src/cfl/parser.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
-          <caret line="185" column="37" selection-start-line="185" selection-start-column="37" selection-end-line="185" selection-end-column="37" />
-          <folding />
+          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
+          <folding>
+            <element signature="e#13#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
