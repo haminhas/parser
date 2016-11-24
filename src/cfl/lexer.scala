@@ -15,6 +15,7 @@ object lexer {
   case class SEQ1(r1: Rexp, r2: Rexp) extends Rexp
   case class STAR(r: Rexp) extends Rexp
   case class RECD(x: String, r: Rexp) extends Rexp
+  case class RANGE(c: List[Char]) extends Rexp
 
   abstract class Val
   case object Empty extends Val
@@ -58,6 +59,7 @@ object lexer {
     case SEQ1(r1, r2) => nullable(r1) && nullable(r2)
     case STAR(_) => true
     case RECD(_, r1) => nullable(r1)
+    case RANGE (r) => false
   }
 
   // derivative of a regular expression w.r.t. a character
@@ -71,6 +73,7 @@ object lexer {
       else SEQ1(der(c, r1), r2)
     case STAR(r) => SEQ1(der(c, r), STAR(r))
     case RECD(_, r1) => der(c, r1)
+    case RANGE(ch)=> if(ch.contains(c)) ONE else ZERO
   }
 
   // derivative w.r.t. a string (iterates der)
@@ -121,6 +124,8 @@ object lexer {
     case (ALT(r1, r2), Right(v2)) => Right(inj(r2, c, v2))
     case (CHAR(d), Empty) => Chr(c)
     case (RECD(x, r1), _) => Rec(x, inj(r1, c, v))
+    case (RANGE(_), Empty) => Chr(c)
+
   }
 
   // main lexing function (produces a value)
@@ -204,11 +209,11 @@ object lexer {
 
   def PLUS(r: Rexp) = r ~ r.%
 
-  val SYM = "a" | "b" | "c" | "d" | "e" | "f" | "g" | "h" | "i" | "j" | "k" | "l" | "m" | "n" | "o" | "p" | "q" | "r" | "s" | "t" | "u" | "v" | "w" | "x" | "y" | "z"
+  val SYM = RANGE(('a' to 'z').toList ++ ('A' to 'Z').toList)
   val DIGIT = "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
   val ID = SYM ~ (SYM | DIGIT).%
   val NUM = PLUS(DIGIT)
-  val KEYWORD : Rexp = "skip" | "while" | "do" | "if" | "then" | "else" | "read" | "write" | "true" | "false"
+  val KEYWORD : Rexp = "skip" | "while" | "do" | "if" | "then" | "else" | "read" | "write" | "true" | "false" | "write" | "read"
   val SEMI: Rexp = ";"
   val OP: Rexp = ":=" | "==" | "-" | "+" | "*" | "!=" | "<" | ">" | "<=" | ">=" | "%" | "/"
   val WHITESPACE = PLUS(" " | "\n" | "\t")
