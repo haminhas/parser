@@ -215,13 +215,13 @@ object lexer {
   val NUM = PLUS(DIGIT)
   val KEYWORD : Rexp = "skip" | "while" | "do" | "if" | "then" | "else" | "read" | "write" | "true" | "false" | "write" | "read"
   val SEMI: Rexp = ";"
-  val OP: Rexp = ":=" | "==" | "-" | "+" | "*" | "!=" | "<" | ">" | "<=" | ">=" | "%" | "/"
+  val OP: Rexp = ":=" | "==" | "-" | "+" | "*" | "!=" | "<" | ">" | "<=" | ">=" | "%" | "/" | "&&" | "||"
   val WHITESPACE = PLUS(" " | "\n" | "\t")
   val RPAREN: Rexp = ")"
   val LPAREN: Rexp = "("
   val BEGIN: Rexp = "{"
   val END: Rexp = "}"
-  val STRING: Rexp = "\"" ~ SYM.% ~ "\""
+  val STRING: Rexp = "\"" ~ (SYM | " ").% ~ "\""
 
 
   val WHILE_REGS = (("k" $ KEYWORD) |

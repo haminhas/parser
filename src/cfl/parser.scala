@@ -29,14 +29,13 @@ object parser {
 
   case class ParserToken(s: (String, String)) extends Parser[List[(String, String)], String] {
     def parse(sb: List[(String,String)]) = {
-//      println("sb: "+sb+" ISEMPTY: "+sb.isEmpty)
-      if(sb.nonEmpty && sb.head == s) Set((sb.head._2,sb.tail)) else Set()
+      if(sb.nonEmpty && sb.head == s) Set((sb.head._2, sb.tail)) else Set()
     }
   }
 
   case object ParserNum extends Parser[List[(String, String)], Int] {
     def parse(sb: List[(String, String)]) = {
-      if(sb.head._1 == "n") Set((sb.head._2.toInt,sb.tail)) else Set()
+      if(sb.head._1 == "n") Set((sb.head._2.toInt, sb.tail)) else Set()
     }
   }
 
@@ -89,17 +88,18 @@ object parser {
   case object True extends BExp
   case object False extends BExp
   case class Bop(o: String, a1: AExp, a2: AExp) extends BExp
+  case class Bop2(o: String, b1: BExp, b2: BExp) extends BExp
 
 
   case object ParserID extends Parser[List[(String, String)], String] {
     def parse(sb: List[(String, String)]) = {
-      if(sb.head._1 == "i") Set((sb.head._2,sb.tail)) else Set()
+      if(sb.head._1 == "i") Set((sb.head._2, sb.tail)) else Set()
     }
   }
 
   case object ParserString extends Parser[List[(String, String)], String] {
     def parse(sb: List[(String, String)]) = {
-      if(sb.head._1 == "str") Set((sb.head._2,sb.tail)) else Set()
+      if(sb.head._1 == "str") Set((sb.head._2, sb.tail)) else Set()
     }
   }
 
@@ -107,7 +107,9 @@ object parser {
     (Te ~ OPPlus ~ AExp) ==> { case ((x, y), z) => Aop("+", x, z):AExp } ||
       (Te ~ OPMinus ~ AExp) ==> { case ((x, y), z) => Aop("-", x, z):AExp } || Te
   lazy val Te: Parser[List[(String,String)], AExp] =
-    (Fa ~ OPTimes ~ Te) ==> { case ((x, y), z) => Aop("*", x, z):AExp } || Fa
+    (Fa ~ OPTimes ~ Te) ==> { case ((x, y), z) => Aop("*", x, z):AExp } ||
+      (Fa ~ ParserToken(("o","/")) ~ Te) ==> { case ((x, y), z) => Aop("/", x, z):AExp } ||
+        (Fa ~ ParserToken(("o","%")) ~ Te) ==> { case ((x, y), z) => Aop("%", x, z):AExp } || Fa
   lazy val Fa: Parser[List[(String,String)], AExp] =
     (BracketLeft ~ AExp ~ BracketRight) ==> { case ((x, y), z) => y } ||
       ParserID ==> Var ||
@@ -135,7 +137,6 @@ object parser {
       ParserToken(("k","read")) ~ AExp ==> { case (x, y) => Read(y) }
 
 
-
   lazy val Stmts: Parser[List[(String,String)], Block] =
     (Stmt ~ ParserToken(("s",";")) ~ Stmts) ==> { case ((x, y), z) => x :: z : Block } ||
       (Stmt ==> ((s) => List(s) : Block))
@@ -153,6 +154,8 @@ object parser {
     case Aop("+", a1, a2) => eval_aexp(a1, env) + eval_aexp(a2, env)
     case Aop("-", a1, a2) => eval_aexp(a1, env) - eval_aexp(a2, env)
     case Aop("*", a1, a2) => eval_aexp(a1, env) * eval_aexp(a2, env)
+    case Aop("%", a1, a2) => eval_aexp(a1, env) % eval_aexp(a2, env)
+    case Aop("/", a1, a2) => eval_aexp(a1, env) / eval_aexp(a2, env)
   }
 
   def eval_bexp(b: BExp, env: Env) : Boolean = b match {
@@ -199,6 +202,14 @@ object parser {
 
   def eval(bl: Block) : Env = eval_bl(bl, Map())
 
+  def time[T](code: => T) = {
+    val start = System.nanoTime()
+    val result = code
+    val end = System.nanoTime()
+    println((end - start)/1.0e9)
+    result
+  }
+
 
   def main(args: Array[String]) {
     val q2 = """if a < b then skip else a := a * b + 1"""
@@ -206,7 +217,7 @@ object parser {
     val fig3 =
       """{
         write "Fib";
-        start := 1000;
+        start := 840;
         x := start;
         y := start;
         z := start; while 0 < x do {
@@ -217,9 +228,6 @@ object parser {
         y := start; x := x - 1
         }
         }"""
-
-    val test=
-      """{write "Fib"}"""
     val fig2=
       """{
        write "Fib";
@@ -235,10 +243,13 @@ object parser {
          write "Result";
          write minus2
         }"""
-    val tokens = lexer.env(lexer.lexing_simp(lexer.WHILE_REGS, fig3)).filterNot{_._1 == "w"}
+    val tokens = lexer.env(lexer.lexing_simp(lexer.WHILE_REGS, fig2)).filterNot{_._1 == "w"}
     println(tokens)
     println(Block.parse_all(tokens))
     println(eval(Block.parse_all(tokens).head))
+
+   // time needed testing
+   // println(time(eval(Block.parse_all(lexer.env(lexer.lexing_simp(lexer.WHILE_REGS, fig3)).filterNot{_._1 == "w"}).head)))
   }
 }
 
